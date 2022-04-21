@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="add_widget">Add widget</string>
+    <string name="forecast_week">Forecast Week</string>
+    <string name="add_location">Add Location</string>
+    <string name="app_widget_description">This is an app widget description</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Select"  app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/idForecastWeek"
+                android:icon="@drawable/ic_forecast"
+                android:title="Week Forecast "
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/idAddLocation"
+                android:icon="@drawable/ic_add_location"
+                android:title="@string/add_location"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>

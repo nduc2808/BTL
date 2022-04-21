@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="Widget.Weather_app.AppWidget.Container" parent="android:Widget">
+        <item name="android:padding">?attr/appWidgetPadding</item>
+    </style>
+
+    <style name="Widget.Weather_app.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:padding">?attr/appWidgetPadding</item>
+    </style>
+</resources>
