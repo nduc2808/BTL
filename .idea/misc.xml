@@ -6,26 +6,45 @@
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable-v21/app_widget_background.xml" value="0.1555" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.1555" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.159" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/add_location.xml" value="0.159" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/aqi.xml" value="0.159" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/background_modal.xml" value="0.153" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/ic_add_location.xml" value="0.1505" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/ic_arrow_back.xml" value="0.159" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/ic_check_box.xml" value="0.1615" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/ic_clear.xml" value="0.178" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/ic_delete.xml" value="0.1595" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/ic_forecast.xml" value="0.1505" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.159" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/ic_search_icon.xml" value="0.159" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/drawable/ic_settings.xml" value="0.145" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/activity_add_location.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/activity_air_quality.xml" value="0.2" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/activity_google_map.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/activity_main.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/activity_main2.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/activity_main3.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/activity_week_weather.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/activity_week_weather_adapter.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/activtity_search_city.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/add_location_adapter.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/air_quality.xml" value="0.2059071729957806" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/forecast_week.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/google_map_activity.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/opacity_shape.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/toolbar_add_location.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/weather_aqi.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/weather_col_forecast.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/weather_modal_add_location.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/weather_modal_item.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/weather_row_forecast.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/layout/weather_widget.xml" value="0.20444444444444446" />
+        <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/menu/menu_action_add.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/menu/menu_main.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1555" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1555" />
         <entry key="..\:/Users/nd280/AndroidStudioProjects/Weather_app/app/src/main/res/xml/network_security_config.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/nd280/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.20854700854700856" />
       </map>
     </option>
   </component>
