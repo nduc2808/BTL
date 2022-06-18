@@ -1,12 +1,12 @@
-package com.example.weather_app;
+package com.example.weather_app.Hour_forecast;
 
-public class WeatherModal {
+public class HourWeatherModal {
     private String timeMD;
     private String temperatureMD;
     private String iconMD;
     private String windSpeedMD;
 
-    public WeatherModal(String timeMD, String temperatureMD, String iconMD, String windSpeedMD) {
+    public HourWeatherModal(String timeMD, String temperatureMD, String iconMD, String windSpeedMD) {
         this.timeMD = timeMD;
         this.temperatureMD = temperatureMD;
         this.iconMD = iconMD;

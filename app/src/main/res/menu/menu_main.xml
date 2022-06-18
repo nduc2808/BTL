@@ -3,20 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:title="Select"  app:showAsAction="always">
+    <item android:title="Tính năng">
         <menu>
             <item
                 android:id="@+id/idForecastWeek"
                 android:icon="@drawable/ic_forecast"
-                android:title="Week Forecast "
+                android:title="Dự báo 7 ngày tiếp"
                 app:showAsAction="never"/>
 
             <item
                 android:id="@+id/idAddLocation"
                 android:icon="@drawable/ic_add_location"
-                android:title="@string/add_location"
+                android:title="Vị trí yêu thích"
                 app:showAsAction="never"/>
         </menu>
+    </item>
+
+    <item android:title="Thông tin ">
+    </item>
+    <item android:title="Cài đặt ">
     </item>
 
 </menu>

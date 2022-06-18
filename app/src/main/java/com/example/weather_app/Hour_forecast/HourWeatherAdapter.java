@@ -1,4 +1,4 @@
-package com.example.weather_app;
+package com.example.weather_app.Hour_forecast;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,46 +10,38 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.weather_app.R;
 import com.squareup.picasso.Picasso;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 
-public class WeatherAdapter extends RecyclerView.Adapter<WeatherAdapter.ViewHolder> {
+public class HourWeatherAdapter extends RecyclerView.Adapter<HourWeatherAdapter.ViewHolder> {
     private Context context;
-    private ArrayList<WeatherModal> weatherModalArrayList;
+    private ArrayList<HourWeatherModal> weatherModalArrayList;
 
-    public WeatherAdapter(Context context, ArrayList<WeatherModal> weatherModalArrayList) {
+    public HourWeatherAdapter(Context context, ArrayList<HourWeatherModal> weatherModalArrayList) {
         this.context = context;
         this.weatherModalArrayList = weatherModalArrayList;
     }
 
     @NonNull
     @Override
-    public WeatherAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public HourWeatherAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(context);
         View view = layoutInflater.inflate(R.layout.weather_modal_item, parent, false);
 
-        return new WeatherAdapter.ViewHolder(view);
+        return new HourWeatherAdapter.ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull WeatherAdapter.ViewHolder holder, int position) {
-        WeatherModal modal = weatherModalArrayList.get(position);
-
-        SimpleDateFormat input = new SimpleDateFormat("yyyy-MM-dd hh:mm");
-        SimpleDateFormat output = new SimpleDateFormat("hh:mm aa");
-        try {
-            Date t = input.parse(modal.getTimeMD());
-            holder.timeModal.setText(output.format(t));
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
+    public void onBindViewHolder(@NonNull HourWeatherAdapter.ViewHolder holder, int position) {
+        HourWeatherModal modal = weatherModalArrayList.get(position);
+        holder.timeModal.setText(modal.getTimeMD());
 
         holder.temperatureModal.setText(modal.getTemperatureMD() + "°C");
-        Picasso.get().load("http://".concat(modal.getIconMD())).into(holder.conditionModal);
+        Picasso.get().load("https://openweathermap.org/img/w/".concat(modal.getIconMD() + ".png")).into(holder.conditionModal);
+
+
         holder.windSpeedModal.setText(modal.getWindSpeedMD() + " Km/h");
 
     }

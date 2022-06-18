@@ -2,25 +2,42 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.weather_app">
 
+    <!-- Cấp quyền truy cập internet để lấy dữ liệu từ internet   -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Yêu cầu truy cập vị trí khi khởi động app   -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/iconapp"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@drawable/iconapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.Weather_app"
-        android:usesCleartextTraffic="true"
-        android:networkSecurityConfig="@xml/network_security_config">
+        android:usesCleartextTraffic="true">
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
-            android:name=".MainActivity2"
+            android:name=".Add_Location.AddLocationActivity"
             android:exported="false" />
         <activity
-            android:name=".AirQualityActivity"
+            android:name=".Week_forecast.WeekWeatherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Air_Quality.AirQualityActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

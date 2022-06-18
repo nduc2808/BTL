@@ -5,10 +5,10 @@
     android:initialLayout="@layout/weather_widget"
     android:minWidth="500dp"
     android:minHeight="60dp"
-    android:previewImage="@drawable/weather"
+    android:previewImage="@drawable/widget"
     android:targetCellWidth="4"
     android:targetCellHeight="1"
     android:previewLayout="@layout/weather_widget"
-    android:updatePeriodMillis="86400000"
+    android:updatePeriodMillis="2000"
     android:widgetCategory="home_screen">
 </appwidget-provider>

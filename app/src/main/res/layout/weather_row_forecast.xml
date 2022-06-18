@@ -1,74 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="horizontal"
-    android:weightSum="2"
-    android:gravity="center"
-    android:layout_gravity="center">
-    
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:gravity="center">
-
-        <TextView
-            android:id="@+id/idDayActivity2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Thứ Ngày"
-            android:textSize="30dp"
-            android:textColor="@color/black"
-            android:gravity="center"/>
-
-        <TextView
-            android:id="@+id/idStatusActivity2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Status"
-            android:gravity="center"
-            android:textColor="@color/black"/>
-
-    </LinearLayout>
+    android:layout_gravity="center"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    android:layout_margin="5dp"
+    android:background="@android:color/transparent">
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1">
+        android:background="#006f9a"
+        android:weightSum="2">
 
         <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:layout_gravity="center"
             android:gravity="center"
-            android:weightSum="3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:id="@+id/idImgStatusActivity2"
-                android:src="@drawable/clouds"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="100dp"/>
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/idTempMax"
-                android:text="Max temp"
-                android:textSize="18dp"
-                android:layout_width="0dp"
+                android:id="@+id/idDayWeek"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:gravity="center"
+                android:text="Thứ Ngày"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
 
             <TextView
-                android:id="@+id/idTempMin"
-                android:text="Min temp"
-                android:textSize="18dp"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"/>
+                android:id="@+id/idStatusWeek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.25">
+
+            <LinearLayout
+                android:gravity="center"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/idImgStatusWeek"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0.75" />
+
+                <TextView
+                    android:id="@+id/idTempMax"
+                    android:text="Max temp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/idTempMin"
+                    android:text="Min temp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
         </LinearLayout>
 
     </LinearLayout>
 
-</LinearLayout>
+</androidx.cardview.widget.CardView>

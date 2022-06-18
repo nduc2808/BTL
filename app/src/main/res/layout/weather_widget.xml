@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Widget.Weather_app.AppWidget.Container"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    app:cardCornerRadius="20dp"
-    app:cardElevation="8dp"
-    android:background="@android:color/transparent"
     android:id="@+id/idWidget">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#590B0A0A"
         android:weightSum="2">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center"
+            android:layout_gravity="center"
             android:orientation="vertical">
 
             <TextView
@@ -29,12 +23,12 @@
                 android:layout_height="wrap_content"
                 android:text="25°C"
                 android:textColor="@color/white"
-                android:textSize="50dp" />
+                android:textSize="45dp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:weightSum="2">
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/idWidgetCity"
@@ -42,7 +36,7 @@
                     android:layout_height="wrap_content"
                     android:text="Hà Nội "
                     android:textColor="@color/white"
-                    android:textSize="20dp" />
+                    android:textSize="15dp" />
 
                 <TextView
                     android:id="@+id/idWidgetAQI"
@@ -50,7 +44,7 @@
                     android:layout_height="match_parent"
                     android:text="| AQI 75"
                     android:textColor="@color/white"
-                    android:textSize="20dp" />
+                    android:textSize="15dp" />
 
             </LinearLayout>
 
@@ -62,22 +56,26 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
+            android:layout_gravity="center"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/idWidgetImg"
-                android:layout_width="wrap_content"
-                android:layout_height="65dp"
-                android:src="@drawable/clouds" />
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:src="@drawable/cloud"/>
 
             <TextView
                 android:id="@+id/idWidgetStatus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
                 android:text="Nhiều mây"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="15dp" />
         </LinearLayout>
     </LinearLayout>
 
-</androidx.cardview.widget.CardView>
+</LinearLayout>
